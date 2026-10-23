@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">zomato</div>
+
+            <div class="nav-links">
+                <a href="#home">Home</a><br>
+                <a href="#restaurants">Restaurants</a><br>
+                <a href="#about">About</a><br>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <h1>zomato</h1>
+
+        <p>Discover the best food & drinks near you</p>
+
+        <div class="search-box">
+            <input
+                type="text"
+                placeholder="Search for restaurant, cuisine or dish"
+            >
+            <button>Search</button>
+        </div>
+
+    </section>
+
+    <!-- Restaurant Section -->
+    <section class="restaurants" id="restaurants">
+
+        <h2>Explore Restaurants 🍕</h2>
+
+        <div class="food-container">
+
+            <div class="food-card">
+                <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58f" 
+                    alt="Burger"  height="123"
+                >
+
+                <h3>Delicious Burger</h3>
+                <p>Starting from ₹99</p>
+                <button>Order Now</button>
+            </div>
+
+            <div class="food-card">
+                <img
+                    src="https://images.unsplash.com/photo-1513104890138-7c749659a591"
+                    alt="Pizza" height="123"
+                >
+
+                <h3>Cheese Pizza</h3>
+                <p>Starting from ₹199</p>
+                <button>Order Now</button>
+            </div>
+
+            <div class="food-card">
+                <img
+                    src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624"
+                    alt="Noodles" height="123"
+                >
+
+                <h3>Chinese Noodles</h3>
+                <p>Starting from ₹149</p>
+                <button>Order Now</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>
+            Discover delicious food from your favourite restaurants.
+            Explore different cuisines and enjoy your meals.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h2>zomato</h2>
+        <p>Made with ❤️ by Khushi Tiwari</p>
+        <p>© 2026 Zomato Clone | Educational Project</p>
+    </footer>
+
+</body>
+</html>
